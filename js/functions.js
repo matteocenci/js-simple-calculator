@@ -25,8 +25,8 @@ function calculator(num1, num2, operator) {
     switch(operator) {
         case '+': risultato = num1 + num2; break;
         case '-': risultato = num1 - num2; break;
-        case '*': risultato = num1 * num2; break;
-        case '/': risultato = num1 / num2; break;
+        case '×': risultato = num1 * num2; break;
+        case '÷': risultato = num1 / num2; break;
         default:  risultato = null;
     }
 

@@ -41,16 +41,18 @@ let equalValue = "";
 equal.addEventListener('click', function() {
     secondNum = parseInt(result.innerHTML);
     const finalResult = calculator(firstNum, secondNum, operatorValue);
+
+    console.log(finalResult);
     result.innerHTML = finalResult;
     
     
-
 })
 
-reset.addEventListener('click', function(){
+reset.addEventListener('click', function() {
     firstNum = "";
     secondNum = "";
-    result.innerHTML = "";
+    result = "";
+    
 })
 // for (let y = 0; y < equal; y++) {
 //     const equalcalc = equal[y];
