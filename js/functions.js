@@ -15,5 +15,21 @@
 
 
 
+function calculator(num1, num2, operator) {
 
+    let risultato = 0;
+
+    num1 = parseInt(num1);
+    num2 = parseInt(num2);
+
+    switch(operator) {
+        case '+': risultato = num1 + num2; break;
+        case '-': risultato = num1 - num2; break;
+        case '*': risultato = num1 * num2; break;
+        case '/': risultato = num1 / num2; break;
+        default:  risultato = null;
+    }
+
+    return risultato;
+}
 
