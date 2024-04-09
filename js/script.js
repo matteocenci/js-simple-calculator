@@ -46,6 +46,12 @@ equal.addEventListener('click', function() {
     
 
 })
+
+reset.addEventListener('click', function(){
+    firstNum = "";
+    secondNum = "";
+    result.innerHTML = "";
+})
 // for (let y = 0; y < equal; y++) {
 //     const equalcalc = equal[y];
 //     equalcalc.addEventListener('click', function () {
